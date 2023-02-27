@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Karisma.Co</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header id="header">
+		<div class="branding">
+			<img src="./assets/img/03.jpg" alt="brand-logo" id="header-img" class="logo">
+			<p id="brand-name">Karisma.Co</p>
+		</div>
+		<nav id="nav-bar">
+			<ul>
+				<li>
+					<a href="#about" class="nav-link">About</a>
+				</li>
+				<li>
+					<a href="#products" class="nav-link">Products</a>
+				</li>
+				<li>
+					<a href="#contact_us" class="nav-link">Contact Us</a>
+				</li>
+			</ul>		
+		</nav>
+	</header>
+	<div class="section01" id="about">
+		<h1 class="sub-heading">Bringing Out</h1>
+		<h1 class="main-heading">The Confidence In Women</h1>
+		<iframe 
+			id="video" 
+			src="https://www.youtube.com/embed/L6OClv7Sd5c" 
+			frameborder="0"
+			allowfullscreen
+			></iframe>
+		<img class="section01-img" src="./assets/img/01.jpg" alt="banner-img">
+		<div>
+			<ul class="tagline">
+				<li>Premium Materials</li>
+				<li>Fast Shipping</li>
+				<li>Quality Assurance</li>
+			</ul>
+		</div>
+			
+	</div>
+	<div class="section02" id="products">
+		
+		<h2>Our Products</h2>
+		<div id="products-grid">
+			
+			<div id="product-tile">
+				<img src="/assets/img/04.jpg" 
+				alt="product"
+				id="product-img">
+				<p id="product-name">Product Name</p>
+			</div>
+			<div id="product-tile">
+				<img src="/assets/img/05.jpg" 
+				alt="product"
+				id="product-img">
+				<p id="product-name">Product Name</p>
+			</div>
+			<div id="product-tile">
+				<img src="/assets/img/07.jpg" 
+				alt="product"
+				id="product-img">
+				<p id="product-name">Product Name</p>
+			</div>
+			<div id="product-tile">
+				<img src="/assets/img/08.jpg" 
+				alt="product"
+				id="product-img">
+				<p id="product-name">Product Name</p>
+			</div>
+			<div id="product-tile">
+				<img src="/assets/img/09.jpg" 
+				alt="product"
+				id="product-img">
+				<p id="product-name">Product Name</p>
+			</div>
+		</div>
+	</div>
+	<div class="section03" id="contact_us">
+		<h2>We'd like to hear from you.</h2>
+		<form id="form" action="https://www.freecodecamp.com/email-submit">
+			<label for="email">Email:
+				<input id="email" type="email" placeholder="janesmith@kc.com" required />
+			</label>
+			<lable>
+				Leave us a comment:
+				<textarea id="comment" name="comment" rows="10" cols="30" placeholder="Leave a comment...">
+				</textarea>
+			  </lable>
+			<input id="submit" type="submit" value="Submit" />
+		</form>
+	</div>
+	
+
+	<script src="script.js"></script>
+</body>
+</html>
